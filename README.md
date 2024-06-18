@@ -1,5 +1,8 @@
 # How High?
-Video: https://www.youtube.com/watch?v=4xNEhoRiN5o&ab_channel=NimunB
+
+Interactive art piece that uses computer vision techniques (p5.js, posenet, opencv) to map abstract, alien, and foreign looking objects onto participants’ bodies.
+
+Video: https://youtu.be/4xNEhoRiN5o?si=CNnBCe2iDntovRwe
 
 ## Technical Description
 I used p5.js and ml5.js for my project. Specifically, I used the PoseNet machine learning model in order to detect the location of the participants’ body parts. In order to understand and set up the PoseNet process, I used the official ml5.js PoseNet documentation, Daniel Shiffman’s video on Pose Estimation with PoseNet, and the Body Tracking demo from our class’s Computer Vision workshop (Workshop 3). 
