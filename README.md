@@ -4,7 +4,11 @@ Interactive art piece that uses computer vision techniques (p5.js, posenet, open
 
 Video: https://youtu.be/4xNEhoRiN5o?si=CNnBCe2iDntovRwe
 
-Gallery Video: 
+<img width="1405" alt="Screen Shot 2024-06-18 at 7 34 55 PM" src="https://github.com/NimunB/How-High/assets/32827637/ea7c1cef-9ea1-432d-8828-25d8ba4c4d74">
+<img width="1310" alt="Screen Shot 2024-06-18 at 7 30 33 PM" src="https://github.com/NimunB/How-High/assets/32827637/cda86214-3ee5-4e56-8442-ffb776806b9a">
+<img width="1440" alt="Screen Shot 2024-06-18 at 7 32 53 PM" src="https://github.com/NimunB/How-High/assets/32827637/3ae5c238-01ee-4956-9379-3b45fa40672c">
+
+
 
 ## Technical Description
 I used p5.js and ml5.js for my project. Specifically, I used the PoseNet machine learning model in order to detect the location of the participants’ body parts. In order to understand and set up the PoseNet process, I used the official ml5.js PoseNet documentation, Daniel Shiffman’s video on Pose Estimation with PoseNet, and the Body Tracking demo from our class’s Computer Vision workshop (Workshop 3). 
