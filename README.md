@@ -12,6 +12,17 @@ I used p5.js and ml5.js for my project. Specifically, I used the PoseNet machine
 ## Artist Statement
 This is an interactive piece that uses computer vision techniques to map abstract, alien, and foreign looking objects onto participants’ bodies. It then encourages them to jump, with a visible number placed on their chest area. On jumping, the participant’s jump counter updates, and the opacity of the foreign body parts decreases, while we see the image of a generic man begin to appear. The concept behind the artwork relates to the idea of “the other” and how members of marginalized communities are often not seen as human, and are told to “jump” through hoops and follow certain rules in order to be accepted. In this process however, it’s easy to lose yourself and what makes you unique. 
 
+<img width="425" alt="Screen Shot 2024-06-18 at 7 25 10 PM" src="https://github.com/NimunB/How-High/assets/32827637/968c5f16-9f69-4776-b00b-ecda1a3618e2">
+<img width="461" alt="Screen Shot 2024-06-18 at 7 25 15 PM" src="https://github.com/NimunB/How-High/assets/32827637/4bd21800-387a-4924-9770-e679a6b59bc8">
+<img width="742" alt="Screen Shot 2024-06-18 at 7 16 43 PM" src="https://github.com/NimunB/How-High/assets/32827637/70e26f12-3a1d-4315-a66e-f7d38e278ef1">
+
+_Showing mapped body parts_
+
+<img width="428" alt="Screen Shot 2024-06-18 at 7 24 26 PM" src="https://github.com/NimunB/How-High/assets/32827637/4a5893df-666e-4a59-964f-f5140311b93c">
+<img width="435" alt="Screen Shot 2024-06-18 at 7 23 36 PM" src="https://github.com/NimunB/How-High/assets/32827637/ac439247-da46-4cd6-b816-5794d15a92c5">
+
+_Showing opacity changes and generic man showing as jump count increases_
+
 ## Code Structure and Flow
 First, the preload function loads all the necessary images that will be placed onto participants’ body parts. The setup function initializes the poseNet model, sets the maximum pose detections to 6, and filters out poses with a confidence level below 0.27. When new poses are detected, the updatePeopleData() method is called, which goes through each pose/person and either initalizes or updates that person’s data in the peopleData array. It uses the pose ID to identify the person in the peopleData array. If the array does not contain the given pose ID, then a new person’s information is added - including the randomized image stickers to be placed on their body parts, their jump counter, their performance adherence level. If the person already exists in the array, their jumps are detected using the y-values of their hip locations and their jump counters and performance values are updated. 
 
