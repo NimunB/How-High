@@ -1,6 +1,6 @@
 # How High?
 
-Interactive art piece that uses computer vision techniques (p5.js, posenet, opencv) to map abstract, alien, and foreign looking objects onto participants’ bodies.
+Interactive art piece that uses computer vision techniques (p5.js, ml5.js, posenet, and opencv) to map abstract, alien, and foreign looking objects onto participants’ bodies.
 
 Video: https://youtu.be/4xNEhoRiN5o?si=CNnBCe2iDntovRwe
 
